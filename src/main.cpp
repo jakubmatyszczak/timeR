@@ -34,7 +34,6 @@ int main(int argc, const char**argv)
         close(2);
         setsid();
     }
-    std::cout << "dupa" << std::endl;
     return app(s);
 }
 void play(ALLEGRO_SAMPLE*sample)
